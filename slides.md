@@ -2,7 +2,7 @@
 theme: seriph
 title: 古羅馬歷史導覽
 info: 圖文並茂的古羅馬歷史介紹（台灣正體中文）
-transition: fade-out
+transition: none
 mdc: true
 colorSchema: light
 fonts:
