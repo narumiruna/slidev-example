@@ -1,11 +1,53 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Slidev Roman History Deck
 
-To start the slide show:
+A Slidev presentation project for a Traditional Chinese deck about Ancient Rome.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Prerequisites
 
-Edit the [slides.md](./slides.md) to see the changes.
+- Node.js 18+
+- pnpm
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## Quick Start
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Then open <http://localhost:3030>.
+
+Main deck file:
+- `slides.md`
+
+## Common Commands
+
+```bash
+pnpm dev      # Run local preview
+pnpm build    # Build static site into dist/
+pnpm export   # Export slides (default: PDF)
+```
+
+## Export to PDF or PPTX
+
+Slide export depends on Playwright Chromium.
+
+```bash
+pnpm add -D playwright-chromium
+pnpm exec playwright install chromium
+```
+
+Examples:
+
+```bash
+pnpm export --format pdf --output Roman-History.pdf
+pnpm export --format pptx --output Roman-History.pptx
+```
+
+## Notes
+
+- If ports are occupied, stop other Slidev dev servers before running `pnpm dev`.
+- For Mermaid diagrams, prefer English labels when exporting to PPTX to avoid missing CJK glyphs in rendered diagrams.
+
+## Reference
+
+- Slidev docs: <https://sli.dev/>
