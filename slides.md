@@ -167,13 +167,17 @@ class: parchment
 
 ```mermaid
 flowchart LR
-A[道路系統] --> B[軍團快速調動]
-A --> C[區域貿易整合]
-D[引水道] --> E[公共浴場]
-D --> F[都市衛生提升]
-G[法律制度] --> H[商業契約穩定]
+A[Road Network] --> B[Rapid Legion Movement]
+A --> C[Regional Trade Integration]
+D[Aqueducts] --> E[Public Baths]
+D --> F[Urban Sanitation]
+G[Legal System] --> H[Stable Contracts]
 H --> C
 ```
+
+<div class="caption mt-3">
+Road Network＝道路系統｜Aqueducts＝引水道｜Legal System＝法律制度
+</div>
 
 ---
 layout: image-right
