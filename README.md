@@ -2,6 +2,18 @@
 
 A Slidev presentation project for a Traditional Chinese deck about Ancient Rome.
 
+## Generation Workflow
+
+This deck was generated with Codex CLI using the Slidev skill.
+
+Slidev skill reference: [Work with AI](https://sli.dev/guide/work-with-ai)
+
+Install the Slidev skill with:
+
+```bash
+npx skills add slidevjs/slidev
+```
+
 ## Prerequisites
 
 - Node.js 18+
